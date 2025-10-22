@@ -1,0 +1,240 @@
+body {
+    margin: 0
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    min-width: 800px;
+    height: 100%;
+    margin: auto;
+}
+
+.sitehat {
+    height: 100px;
+}
+
+.sitehat>.sitehatelements {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hattext {
+    display: flex;
+    align-items: center;
+}
+
+.hattext>.hatbutton {
+    font-size: 17px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.hattext>.hatbutton:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.sitehat>.sitehatelements>div:last-child {
+    text-align: right;
+    position: relative;
+    right: 230px; 
+    gap: 30px; 
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.sitehat>.sitehatelements>div:last-child:hover {
+    cursor: pointer;
+}
+
+.sitehat>.sitehatelements>.hattext>.a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 10px;
+    text-decoration-color: #ff5a5a;
+}
+
+.sitehat>.sitehatelements>.hattext>.b:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 10px;
+    text-decoration-color: #ff5a5a;
+}
+
+.sitehat>.sitehatelements>.hattext>.c:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 10px;
+    text-decoration-color: #ff5a5a;
+}
+
+.sitehat>.sitehatelements>.hattext>.d:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 10px;
+    text-decoration-color: #ff5a5a;
+}
+
+.sitehat>.sitehatelements>.logo {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.sitehat>.sitehatelements>.logo>.logoimg {
+    image-rendering: url(./imgs/logo-language.png);
+    width: 150px;
+    height: auto;
+    left: 50px;
+}
+
+.container_1 {
+    width: 100%;
+    height: 700px;
+    background-image:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(./imgs/con-1-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_1>.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container_1>.container>.title {
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container_1 .counters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 25px 0;
+}
+
+.container_1 a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.container_1 a:hover {
+  cursor: pointer;
+}
+
+.items>div {
+    display: flex;
+}
+
+.items .count {
+    color: #ff5a5a;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.items .title {
+    font-size: 2em;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin-left: 7.5px;
+}
+
+.items .description {
+    font-size: 1em;
+}
+
+.container_1>.container>div:last-child {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_2 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.container_2>.block1 {
+    background-color: #00ac92;
+    width: 50%;
+    height: 700px;
+}
+
+.container_2>.block2 {
+    background-color: #ff5a5a;
+    width: 50%;
+    height: 700px;
+}
+
+.container_3 {
+    background-color: #293331;
+    width: 100%;
+    height: 700px;
+}
+.container_3 .container {
+    display: flex;
+}
+
+.container_3 .container>div {
+    width: 50%;
+    height: 100%;
+}
+
+.container_3 .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container_3 img {
+    width: 75%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    position: relative;
+    z-index: 16;
+}
+
+.right-section>div:first-child {
+    width: 45%;
+    aspect-ratio: 1/1;
+    background-color: #00ac92;
+    position: absolute;
+    z-index: 5;
+    top: 10%;
+    right: 5%;
+}
+
+.right-section>div:last-child {
+    width: 45%;
+    aspect-ratio: 1/1;
+    background-color: #ff5a5a;
+    position: absolute;
+    z-index: 5;
+    bottom: 10%;
+    left: 5%;
+}
